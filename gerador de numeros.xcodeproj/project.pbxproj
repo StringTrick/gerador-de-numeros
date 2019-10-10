@@ -13,6 +13,9 @@
 		BFC603EE234FAFDE00A00415 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC603EC234FAFDE00A00415 /* Main.storyboard */; };
 		BFC603F0234FAFDF00A00415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC603EF234FAFDF00A00415 /* Assets.xcassets */; };
 		BFC603F3234FAFDF00A00415 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC603F1234FAFDF00A00415 /* LaunchScreen.storyboard */; };
+		BFC603FE234FB4EA00A00415 /* botaogerar.png in Resources */ = {isa = PBXBuildFile; fileRef = BFC603FB234FB4EA00A00415 /* botaogerar.png */; };
+		BFC603FF234FB4EA00A00415 /* botaogerar-pressionado.png in Resources */ = {isa = PBXBuildFile; fileRef = BFC603FC234FB4EA00A00415 /* botaogerar-pressionado.png */; };
+		BFC60400234FB4EA00A00415 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BFC603FD234FB4EA00A00415 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		BFC603EF234FAFDF00A00415 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFC603F2234FAFDF00A00415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFC603F4234FAFDF00A00415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFC603FB234FB4EA00A00415 /* botaogerar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botaogerar.png; sourceTree = "<group>"; };
+		BFC603FC234FB4EA00A00415 /* botaogerar-pressionado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "botaogerar-pressionado.png"; sourceTree = "<group>"; };
+		BFC603FD234FB4EA00A00415 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		BFC603E5234FAFDE00A00415 /* gerador de numeros */ = {
 			isa = PBXGroup;
 			children = (
+				BFC603FA234FB4EA00A00415 /* imagens-app-sorteio */,
 				BFC603E6234FAFDE00A00415 /* AppDelegate.swift */,
 				BFC603E8234FAFDE00A00415 /* SceneDelegate.swift */,
 				BFC603EA234FAFDE00A00415 /* ViewController.swift */,
@@ -65,6 +72,17 @@
 				BFC603F4234FAFDF00A00415 /* Info.plist */,
 			);
 			path = "gerador de numeros";
+			sourceTree = "<group>";
+		};
+		BFC603FA234FB4EA00A00415 /* imagens-app-sorteio */ = {
+			isa = PBXGroup;
+			children = (
+				BFC603FB234FB4EA00A00415 /* botaogerar.png */,
+				BFC603FC234FB4EA00A00415 /* botaogerar-pressionado.png */,
+				BFC603FD234FB4EA00A00415 /* logo.png */,
+			);
+			name = "imagens-app-sorteio";
+			path = "../../../../Downloads/imagens-app-sorteio";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +145,10 @@
 			files = (
 				BFC603F3234FAFDF00A00415 /* LaunchScreen.storyboard in Resources */,
 				BFC603F0234FAFDF00A00415 /* Assets.xcassets in Resources */,
+				BFC60400234FB4EA00A00415 /* logo.png in Resources */,
 				BFC603EE234FAFDE00A00415 /* Main.storyboard in Resources */,
+				BFC603FE234FB4EA00A00415 /* botaogerar.png in Resources */,
+				BFC603FF234FB4EA00A00415 /* botaogerar-pressionado.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
